@@ -278,7 +278,7 @@ window.ChatbotMessageRenderer = {
       if (m.role === 'assistant' && isPurelyEmpty) {
         // Determine the correct path for the logo based on the current page
         const isHistoryDetail = window.location.pathname.includes('/history_detail.html');
-        const logoPath = isHistoryDetail ? '../../public/pure.svg' : 'public/pure.svg';
+        const logoPath = isHistoryDetail ? '../../public/favicon.ico' : 'public/favicon.ico';
         renderedContent = `
           <div class="typing-indicator">
             <img src="${logoPath}" class="typing-logo" alt="Thinking..." />
@@ -527,7 +527,7 @@ window.ChatbotMessageRenderer = {
   renderTypingIndicator: function() {
     // Determine the correct path for the logo based on the current page
     const isHistoryDetail = window.location.pathname.includes('/history_detail.html');
-    const logoPath = isHistoryDetail ? '../../public/pure.svg' : 'public/pure.svg';
+    const logoPath = isHistoryDetail ? '../../public/favicon.ico' : 'public/favicon.ico';
 
     return `
       <div class="message-container assistant-message-container">

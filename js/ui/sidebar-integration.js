@@ -69,7 +69,7 @@
     },
     logos: {
       full: '../../public/h_with_name.svg',
-      pure: '../../public/pure.svg'
+      pure: '../../public/favicon.ico'
     }
   };
 
