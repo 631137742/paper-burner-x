@@ -68,7 +68,7 @@
       originalSettingsLink: '#settings-link'
     },
     logos: {
-      full: '../../public/h_with_name.svg',
+      full: '../../public/h_with_name.png',
       pure: '../../public/favicon.ico'
     }
   };
